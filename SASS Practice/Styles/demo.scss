@@ -1,0 +1,82 @@
+// colour variable declaration
+$header-bgcolor : orange;
+$main-bgcolor : rgb(115, 115, 138);
+$footer-bgcolor : green;
+
+$para-fontsize: 15px;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: $header-bgcolor;
+}
+
+main {
+    background: $main-bgcolor;
+}
+
+nav {
+    margin-top: 5px;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: inline-block;
+                color: blue;
+                text-decoration: wavy;
+                padding: auto;
+                transition: 2s;
+                border-radius: 5px;
+            }
+            a:hover {
+                background: black;
+            }
+        }
+    }
+}
+
+/*
+nav {
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: blue;
+    text-decoration: wavy;
+    padding: auto;
+    transition: 2s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: black;
+} */
+
+
+#about p {
+    font-size: $para-fontsize;
+}
+
+footer {
+    background: $footer-bgcolor;
+}

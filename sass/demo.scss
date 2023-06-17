@@ -1,0 +1,91 @@
+// colour variable declaration
+$header-bgcolor : rgb(175, 255, 175);
+$main-bgcolor : rgba(233, 220, 220, 0.5);
+$footer-bgcolor : rgba(0, 0, 0, 0);
+
+$para-fontsize: 20px;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 0;
+    background: $header-bgcolor;
+}
+
+main {
+    background: $main-bgcolor;
+}
+
+nav {
+    margin-top: 5px;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: inline-block;
+                color: blue;
+                text-decoration: wavy;
+                padding: auto;
+                transition: 2s;
+                border-radius: 5px;
+            }
+            a:hover {
+                background: black;
+            }
+        }
+    }
+}
+
+/*
+nav {
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: blue;
+    text-decoration: wavy;
+    padding: auto;
+    transition: 2s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: black;
+} */
+
+
+#about p {
+    margin: 2%;
+    font-size: $para-fontsize;
+}
+
+footer {
+    background: $footer-bgcolor;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+}

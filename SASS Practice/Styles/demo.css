@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: orange;
+}
+
+main {
+  background: rgb(115, 115, 138);
+}
+
+nav {
+  margin-top: 5px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: inline-block;
+  color: blue;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  padding: auto;
+  transition: 2s;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background: black;
+}
+
+/*
+nav {
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: blue;
+    text-decoration: wavy;
+    padding: auto;
+    transition: 2s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: black;
+} */
+#about p {
+  font-size: 15px;
+}
+
+footer {
+  background: green;
+}/*# sourceMappingURL=demo.css.map */
